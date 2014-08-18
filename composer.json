@@ -1,0 +1,37 @@
+{
+    "name": "angulary-js-yii2",
+    "description": "Demo angulary-js-yii2",
+    "keywords": ["yii2", "framework", "demo", "angulary"],
+    "homepage": "https://github.com/femike/angulary-js-yii2",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Mikhail Samokhvalov",
+            "email": "femike@mail.ru",
+            "homepage": "http://ang-yii2.unixoct.ru/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "yii\\composer\\InstallHandler::setPermissions"
+        ]
+    },
+    "extra": {
+        "writable": [
+            "runtime",
+            "web/assets"
+        ],
+        "executable": [
+            "yii"
+        ]
+    }
+}
