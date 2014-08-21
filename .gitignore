@@ -2,6 +2,3 @@
 composer.lock
 vendor/*
 frontend/runtime
-frontend/web/assets
-frontend/web/app/composer.lock
-frontend/web/app/vendor
