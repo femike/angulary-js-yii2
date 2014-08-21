@@ -19,16 +19,32 @@
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-debug": "*",
         "yiisoft/yii2-gii": "*",
+        "components/jquery": "dev-master",
+        "angular-ui/bootstrap": "dev-master"
     },
     "scripts": {
         "post-create-project-cmd": [
             "yii\\composer\\InstallHandler::setPermissions"
         ]
     },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "components/jquery",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://github.com/femike/first",
+                    "type": "git",
+                    "reference": "origin/master"
+                }
+            }
+        }
+    ],
     "extra": {
         "writable": [
-            "runtime",
-            "web/assets"
+            "frontend/runtime",
+            "frontend/web/assets"
         ],
         "executable": [
             "yii"

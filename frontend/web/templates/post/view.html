@@ -1,0 +1,11 @@
+<ul class="breadcrumb"><li><a href="/">Home</a></li>
+	<li><a href="/post">Посты</a></li>
+	<li class="active">{{post.title}}</li>
+	<li><a href="/post/update/{{post.id}}">изменить</a></li>
+	<li><a href="/post/delete/{{post.id}}">удалить</a></li>
+</ul>
+
+<div class="row">
+	<h1>{{post.title}}</h1>
+	<div>{{post.content}}</div>
+</div>

@@ -1,0 +1,8 @@
+.view-animate-container {
+	position: relative;
+}
+
+.fix-navbar-top {
+	height: 50px;
+	margin-bottom: 10px;
+}
