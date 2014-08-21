@@ -5,7 +5,7 @@ use\common\models\Post as CommonPost;
 
 /**
  * Class Post
- * @package rest\versions\v1\models
+ * @package frontend\api\models
  */
 class Post extends CommonPost
 {
